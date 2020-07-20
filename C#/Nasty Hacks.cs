@@ -6,8 +6,6 @@ using System.Collections.Generic;
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-
-
             List<string> results = new List<string>();
 
             while(n-- > 0)
