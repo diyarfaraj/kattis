@@ -14,8 +14,8 @@ public class Main {
         int persons = 0;
 
         while (x-- > 0) {
-            Scanner sc = new Scanner(System.in);
-            String[] activity = sc.nextLine().split(" ");
+            
+            String[] activity = scanner.nextLine().split(" ");
             var event = plusOrMinus(activity[0], Integer.parseInt(activity[1]));
             persons += event;
 
